@@ -99,3 +99,16 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# osx
+.DS_Store
+
+# vscode settings
+.vscode/
+
+# pixivo output files
+_pixivo/
+_result/
+
+# tests
+test.py

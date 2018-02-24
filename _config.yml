@@ -1,0 +1,14 @@
+# pixivo config.yml
+
+# base config
+path: _pixivo # where to store the cookie and files
+proxy: # use aiohttp, can only http proxy
+
+# spider config
+# if you want to turn on it, make sure you turn on it on pixiv.net
+r18: off # default to be off. To turn on set on.
+type: # all(default), illust, manga or ugoira options
+date: # the date to get from pixiv eg. 20180214
+
+# search config
+r_path: _result # the result path name
